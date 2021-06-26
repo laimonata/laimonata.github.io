@@ -1,0 +1,151 @@
+
+
+.banner-intro {
+    position: relative;
+    box-sizing: border-box;
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .banner-area {
+    background: #f9f9ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .image {
+    width: 400px;
+    padding-top: 50px;
+    align-self: center;
+  }
+  
+  .banner-intro h6 {
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .banner-intro h1 {
+    margin: 20px 0;
+    font-size: 60px;
+    color: black;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+  
+  .banner-intro p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .button-intro {
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: white;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .button-intro:hover {
+    box-shadow: 5px 10px 5px 0px #bec3eb;
+    filter: brightness(100%);
+  }
+  
+  .banner-intro a {
+    text-decoration: none;
+  }
+  
+  .about-area {
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .section-gap {
+    padding: 120px 0;
+  }
+  
+  .menu-content {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .title {
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  
+  .title h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #222222;
+    line-height: 1, 2em;
+    margin-top: 0;
+    font-weight: 600;
+  }
+  
+  .title p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-top: 15px;
+    align-self: center;
+    display: block;
+  }
+  
+  .col-el {
+    position: relative;
+    width: 33%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  
+  .service {
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+  }
+  
+  .service a {
+    text-decoration: none;
+    color: #222;
+  }
+  
+  .col-el:hover .service a {
+    color: #8490ff;
+  }
+  
+  .service a i {
+    font-size: 35px;
+  }
+  
+  .service h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+  
+  .service p {
+    max-width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }

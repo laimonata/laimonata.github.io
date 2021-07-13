@@ -49,13 +49,21 @@ jQuery(document).ready(function() {
 
   jQuery('#rodytiBaneri').on('click', function() {
     jQuery('#slapukai').slideDown(500);
+
     return false;
   });
 
 });
 
-// ---------------
-$(".escape").click(function(){
+//--------------window loader
+$(window).load(function(){
+  $('.window-loader-area').addClass('hidden')
+})
+
+
+// ---------js animacija------
+$(".escape").click(function(e){
+  e.preventDefault();
   $(".moveOnClick").animate({
     with: "50%",
     right:"70%"}, 
@@ -76,3 +84,7 @@ $(".fly").click(function(){
     5000, function() {
   });
 });
+
+$('.adv-list-item').click(function(){
+  $('.video-link').trigger('click');
+}); 

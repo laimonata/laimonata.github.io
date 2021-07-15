@@ -1,4 +1,6 @@
-
+body {
+    padding-bottom: 15rem;
+}
 
 .header-area {
     background: white;
@@ -144,11 +146,9 @@ i {
     height: 20px;
     position: relative;
 }
-
 .circle-arrow:hover  {    
     color: #0a58ca;
 }
-
 .arrow-link {
     text-decoration: none;
     color: rgb(219, 189, 150);
@@ -182,3 +182,93 @@ i {
 .list-numb-link:hover .list-number{
     color: #0a58ca;
 }
+
+/* video louncher */
+
+.video-bg {
+    background-image: url(../img/home-infotechno-video-intro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    min-height: auto;
+}
+
+.ontop-on-video-bg {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.section-heading-white {
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.viewo-text-wrap a {
+    text-decoration: none;  
+}
+
+.video-content {
+display: flex;
+flex-direction: row;
+align-items: center;
+text-decoration: none;  
+}
+
+.video-link {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    display: block;
+}
+
+.video-text {      
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 3rem;
+}
+
+.video-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.video-play-icon {
+    margin-right: auto;
+    margin-left: auto;
+    width: 5rem;
+    height: 5rem;
+    background-color: blue;
+    border-radius: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-play-arrow {
+    font-size: xx-large;
+}
+
+/* counter gap */
+.section-gap {
+    background: blue;
+    margin: 100px 0;
+  }
+  
+  .column-row {
+    display:flex;
+    justify-content: space-around; 
+  }
+  
+  .fact-column {
+    width: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color:white;
+  }
